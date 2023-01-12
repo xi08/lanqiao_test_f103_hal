@@ -1,0 +1,60 @@
+# A .gitignore for Keil projects.
+
+# uVision files
+*.opt
+*.uv2
+*uvopt*
+*uvgui*
+*uvproj.bak
+*uvprojx.bak
+
+# Legacy code file
+*_legacy*
+
+# Binary files
+*.axf
+*.b[0-3][0-9]
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.obj
+*.o
+*.sbr
+
+# Build files
+*.bat
+*._ia
+*.__i
+*._ii
+*.map
+*.lst
+
+# Debugger files
+*.ini
+*.dbgconf
+
+# Other files
+*.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+*.pack
+*.pdsc
+*.plg
+*.sct
+*.sfd
+*.sfr
+*.scvd
+
+# Misc
+*.tra
+*.fed
+*.l1p
+*.l2p
+*.iex
+

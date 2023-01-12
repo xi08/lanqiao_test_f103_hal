@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "CT117E",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Keil_v5/ARM/ARMCLANG/include/**",
+                "C:/Keil_v5/ARM/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include",
+                "C:/Keil_v5/ARM/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include"
+            ],
+            "defines": [
+                "__UVISION_VERSION=\"538\"",
+                "__CC_ARM",
+                "__ARMCC_VERSION=6190000",
+                "_RTE_",
+                "USE_FULL_LL_DRIVER",
+                "HSE_VALUE=8000000",
+                "HSE_STARTUP_TIMEOUT=100",
+                "LSE_STARTUP_TIMEOUT=5000",
+                "LSE_VALUE=32768",
+                "HSI_VALUE=8000000",
+                "LSI_VALUE=40000",
+                "VDD_VALUE=3300",
+                "PREFETCH_ENABLE=1",
+                "STM32F103xB"
+            ],
+            "compilerPath": "",
+            "cStandard": "c89",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
